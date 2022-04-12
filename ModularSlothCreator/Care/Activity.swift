@@ -5,6 +5,8 @@ Abstract:
 An activity a sloth may perform.
 */
 
+import Models
+
 /// A type that declares an activity a Sloth can perform.
 public protocol Activity {
     /// Performs the work or sequence of actions for an activity.

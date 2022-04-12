@@ -5,6 +5,8 @@ Abstract:
 A utility type that generates sloths.
 */
 
+import Models
+
 /// A type that generates sloths.
 public protocol SlothGenerator {
     /// Generates a sloth in the specified habitat.

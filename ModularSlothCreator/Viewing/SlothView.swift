@@ -6,10 +6,11 @@ A view that displays a sloth.
 */
 
 import SwiftUI
+import Models
 
 /// A view that displays a sloth.
 ///
-/// You create a sloth view by providing a ``Sloth`` binding.
+/// You create a sloth view by providing a `Sloth` binding.
 /// Depending on the attributes and state of the provided sloth,
 /// the view loads a matching image representation, such as:
 ///
@@ -29,7 +30,7 @@ public struct SlothView: View {
     }
     
     public var body: some View {
-        Image("\(sloth.power)-sloth", bundle: Bundle.module)
+        Image("\(sloth.power)-sloth", bundle: Bundle.main)
             .resizable()
             .scaledToFit()
             .padding()

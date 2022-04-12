@@ -6,6 +6,7 @@ A view that displays a sloth's habitat.
 */
 
 import SwiftUI
+import Models
 
 /// A view that displays a sloth's habitat.
 ///

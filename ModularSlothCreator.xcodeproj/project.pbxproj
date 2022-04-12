@@ -40,6 +40,11 @@
 		A5FC80E12805E0330091FFF0 /* HabitatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC80DE2805E0330091FFF0 /* HabitatView.swift */; };
 		A5FC80E22805E0330091FFF0 /* PowerPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC80DF2805E0330091FFF0 /* PowerPicker.swift */; };
 		A5FC80E32805E0330091FFF0 /* SlothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC80E02805E0330091FFF0 /* SlothView.swift */; };
+		A5FC80E72805E2460091FFF0 /* Models.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FC80B52805DFA90091FFF0 /* Models.framework */; };
+		A5FC80E92805E25A0091FFF0 /* Models.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FC80B52805DFA90091FFF0 /* Models.framework */; };
+		A5FC80F62805E5C40091FFF0 /* Models.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FC80B52805DFA90091FFF0 /* Models.framework */; };
+		A5FC80F72805E5FA0091FFF0 /* CareSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC80AC2805DF750091FFF0 /* CareSchedule.swift */; };
+		A5FC80F82805E63D0091FFF0 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC80AB2805DF750091FFF0 /* Activity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5FC80E72805E2460091FFF0 /* Models.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5FC80F62805E5C40091FFF0 /* Models.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +167,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5FC80E92805E25A0091FFF0 /* Models.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +179,7 @@
 			children = (
 				A5FC80722805DCF10091FFF0 /* ModularSlothCreator */,
 				A5FC80712805DCF10091FFF0 /* Products */,
+				A5FC80E62805E2460091FFF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -256,6 +265,13 @@
 				A5FC80D42805E01D0091FFF0 /* Viewing.docc */,
 			);
 			path = Viewing;
+			sourceTree = "<group>";
+		};
+		A5FC80E62805E2460091FFF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -514,11 +530,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5FC80F72805E5FA0091FFF0 /* CareSchedule.swift in Sources */,
 				A5FC80CB2805DFC20091FFF0 /* Sloth.swift in Sources */,
 				A5FC80B92805DFA90091FFF0 /* Models.docc in Sources */,
 				A5FC80C92805DFC20091FFF0 /* Food.swift in Sources */,
 				A5FC80CA2805DFC20091FFF0 /* Power.swift in Sources */,
 				A5FC80C72805DFC20091FFF0 /* Color.swift in Sources */,
+				A5FC80F82805E63D0091FFF0 /* Activity.swift in Sources */,
 				A5FC80C82805DFC20091FFF0 /* Habitat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -698,6 +716,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.ModularSlothCreator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -728,6 +747,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.ModularSlothCreator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -755,6 +775,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.Creation;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -785,6 +806,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.Creation;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -815,6 +837,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.Care;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -845,6 +868,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.Care;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -875,6 +899,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.Models;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -905,6 +930,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.Models;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -935,6 +961,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.Viewing;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -965,6 +992,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.Viewing;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

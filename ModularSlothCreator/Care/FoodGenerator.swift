@@ -5,6 +5,8 @@ Abstract:
 A utility type that generates food.
 */
 
+import Models
+
 /// A type that generates food.
 ///
 /// ## Topics

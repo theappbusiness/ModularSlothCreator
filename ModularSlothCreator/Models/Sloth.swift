@@ -13,7 +13,7 @@ import Foundation
 /// lives hanging upside down in trees.
 ///
 /// You can create a sloth using the ``init(name:color:power:)`` initializer, or
-/// create a randomly generated sloth using a ``SlothGenerator``:
+/// create a randomly generated sloth using a `SlothGenerator`:
 ///
 /// ```swift
 /// let slothGenerator = MySlothGenerator(seed: randomSeed())
