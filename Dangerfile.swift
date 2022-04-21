@@ -1,5 +1,4 @@
 import Danger
-import WeTransferPRLinter
 import Foundation
 
 let danger = Danger()
@@ -26,8 +25,3 @@ if danger.github != nil {
 
 print("Running Swiftlint on changed files...")
 SwiftLint.lint(.files(editedFiles), inline: true, strict: true, quiet: false)
-
-WeTransferPRLinter.reportXCResultsSummary(using: danger,
-                                          summaryReporter: XCResultSummaryReporter.self,
-                                          reportsPath: "Build",
-                                          fileManager: FileManager.default)
