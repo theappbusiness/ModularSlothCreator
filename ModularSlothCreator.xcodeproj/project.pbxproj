@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A52300F82811A50200CE36C6 /* ModularSlothCreatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52300F72811A50200CE36C6 /* ModularSlothCreatorUITests.swift */; };
+		A52300FA2811A50200CE36C6 /* ModularSlothCreatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52300F92811A50200CE36C6 /* ModularSlothCreatorUITestsLaunchTests.swift */; };
+		A52301072811A68100CE36C6 /* CareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52301062811A68100CE36C6 /* CareTests.swift */; };
+		A52301082811A68100CE36C6 /* Care.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FC809D2805DF540091FFF0 /* Care.framework */; };
+		A52301172811B12300CE36C6 /* ModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52301162811B12300CE36C6 /* ModelsTests.swift */; };
+		A52301182811B12300CE36C6 /* Models.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FC80B52805DFA90091FFF0 /* Models.framework */; };
 		A5FC80742805DCF10091FFF0 /* ModularSlothCreatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC80732805DCF10091FFF0 /* ModularSlothCreatorApp.swift */; };
 		A5FC80762805DCF10091FFF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC80752805DCF10091FFF0 /* ContentView.swift */; };
 		A5FC80782805DCF20091FFF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FC80772805DCF20091FFF0 /* Assets.xcassets */; };
@@ -48,6 +54,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A52300FB2811A50200CE36C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5FC80682805DCF10091FFF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5FC806F2805DCF10091FFF0;
+			remoteInfo = ModularSlothCreator;
+		};
+		A52301092811A68100CE36C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5FC80682805DCF10091FFF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5FC809C2805DF540091FFF0;
+			remoteInfo = Care;
+		};
+		A52301192811B12300CE36C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5FC80682805DCF10091FFF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5FC80B42805DFA90091FFF0;
+			remoteInfo = Models;
+		};
 		A5FC808C2805DD720091FFF0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A5FC80682805DCF10091FFF0 /* Project object */;
@@ -96,6 +123,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A52300F52811A50200CE36C6 /* ModularSlothCreatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModularSlothCreatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52300F72811A50200CE36C6 /* ModularSlothCreatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularSlothCreatorUITests.swift; sourceTree = "<group>"; };
+		A52300F92811A50200CE36C6 /* ModularSlothCreatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularSlothCreatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A52301042811A68100CE36C6 /* CareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52301062811A68100CE36C6 /* CareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTests.swift; sourceTree = "<group>"; };
+		A52301142811B12300CE36C6 /* ModelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52301162811B12300CE36C6 /* ModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsTests.swift; sourceTree = "<group>"; };
 		A5FC80702805DCF10091FFF0 /* ModularSlothCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModularSlothCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5FC80732805DCF10091FFF0 /* ModularSlothCreatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularSlothCreatorApp.swift; sourceTree = "<group>"; };
 		A5FC80752805DCF10091FFF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -129,6 +163,29 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A52300F22811A50200CE36C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52301012811A68100CE36C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52301082811A68100CE36C6 /* Care.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52301112811B12300CE36C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52301182811B12300CE36C6 /* Models.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5FC806D2805DCF10091FFF0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -174,10 +231,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A52300F62811A50200CE36C6 /* ModularSlothCreatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A52300F72811A50200CE36C6 /* ModularSlothCreatorUITests.swift */,
+				A52300F92811A50200CE36C6 /* ModularSlothCreatorUITestsLaunchTests.swift */,
+			);
+			path = ModularSlothCreatorUITests;
+			sourceTree = "<group>";
+		};
+		A52301052811A68100CE36C6 /* CareTests */ = {
+			isa = PBXGroup;
+			children = (
+				A52301062811A68100CE36C6 /* CareTests.swift */,
+			);
+			path = CareTests;
+			sourceTree = "<group>";
+		};
+		A52301152811B12300CE36C6 /* ModelsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A52301162811B12300CE36C6 /* ModelsTests.swift */,
+			);
+			path = ModelsTests;
+			sourceTree = "<group>";
+		};
 		A5FC80672805DCF10091FFF0 = {
 			isa = PBXGroup;
 			children = (
 				A5FC80722805DCF10091FFF0 /* ModularSlothCreator */,
+				A52300F62811A50200CE36C6 /* ModularSlothCreatorUITests */,
+				A52301052811A68100CE36C6 /* CareTests */,
+				A52301152811B12300CE36C6 /* ModelsTests */,
 				A5FC80712805DCF10091FFF0 /* Products */,
 				A5FC80E62805E2460091FFF0 /* Frameworks */,
 			);
@@ -191,6 +276,9 @@
 				A5FC809D2805DF540091FFF0 /* Care.framework */,
 				A5FC80B52805DFA90091FFF0 /* Models.framework */,
 				A5FC80D12805E01D0091FFF0 /* Viewing.framework */,
+				A52300F52811A50200CE36C6 /* ModularSlothCreatorUITests.xctest */,
+				A52301042811A68100CE36C6 /* CareTests.xctest */,
+				A52301142811B12300CE36C6 /* ModelsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -312,6 +400,60 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		A52300F42811A50200CE36C6 /* ModularSlothCreatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A52300FD2811A50200CE36C6 /* Build configuration list for PBXNativeTarget "ModularSlothCreatorUITests" */;
+			buildPhases = (
+				A52300F12811A50200CE36C6 /* Sources */,
+				A52300F22811A50200CE36C6 /* Frameworks */,
+				A52300F32811A50200CE36C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A52300FC2811A50200CE36C6 /* PBXTargetDependency */,
+			);
+			name = ModularSlothCreatorUITests;
+			productName = ModularSlothCreatorUITests;
+			productReference = A52300F52811A50200CE36C6 /* ModularSlothCreatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A52301032811A68100CE36C6 /* CareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A523010B2811A68100CE36C6 /* Build configuration list for PBXNativeTarget "CareTests" */;
+			buildPhases = (
+				A52301002811A68100CE36C6 /* Sources */,
+				A52301012811A68100CE36C6 /* Frameworks */,
+				A52301022811A68100CE36C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A523010A2811A68100CE36C6 /* PBXTargetDependency */,
+			);
+			name = CareTests;
+			productName = CareTests;
+			productReference = A52301042811A68100CE36C6 /* CareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A52301132811B12300CE36C6 /* ModelsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A523011B2811B12300CE36C6 /* Build configuration list for PBXNativeTarget "ModelsTests" */;
+			buildPhases = (
+				A52301102811B12300CE36C6 /* Sources */,
+				A52301112811B12300CE36C6 /* Frameworks */,
+				A52301122811B12300CE36C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A523011A2811B12300CE36C6 /* PBXTargetDependency */,
+			);
+			name = ModelsTests;
+			productName = ModelsTests;
+			productReference = A52301142811B12300CE36C6 /* ModelsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A5FC806F2805DCF10091FFF0 /* ModularSlothCreator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5FC807E2805DCF20091FFF0 /* Build configuration list for PBXNativeTarget "ModularSlothCreator" */;
@@ -320,6 +462,7 @@
 				A5FC806D2805DCF10091FFF0 /* Frameworks */,
 				A5FC806E2805DCF10091FFF0 /* Resources */,
 				A5FC80902805DD720091FFF0 /* Embed Frameworks */,
+				A523010F2811AD6500CE36C6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -413,9 +556,19 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1330;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
+					A52300F42811A50200CE36C6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A5FC806F2805DCF10091FFF0;
+					};
+					A52301032811A68100CE36C6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					A52301132811B12300CE36C6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					A5FC806F2805DCF10091FFF0 = {
 						CreatedOnToolsVersion = 13.3;
 					};
@@ -451,11 +604,35 @@
 				A5FC809C2805DF540091FFF0 /* Care */,
 				A5FC80B42805DFA90091FFF0 /* Models */,
 				A5FC80D02805E01D0091FFF0 /* Viewing */,
+				A52300F42811A50200CE36C6 /* ModularSlothCreatorUITests */,
+				A52301032811A68100CE36C6 /* CareTests */,
+				A52301132811B12300CE36C6 /* ModelsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A52300F32811A50200CE36C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52301022811A68100CE36C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52301122811B12300CE36C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5FC806E2805DCF10091FFF0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -495,7 +672,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A523010F2811AD6500CE36C6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Submodules/WeTransfer-iOS-CI/BuildTools/swiftlint.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		A52300F12811A50200CE36C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52300F82811A50200CE36C6 /* ModularSlothCreatorUITests.swift in Sources */,
+				A52300FA2811A50200CE36C6 /* ModularSlothCreatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52301002811A68100CE36C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52301072811A68100CE36C6 /* CareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52301102811B12300CE36C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52301172811B12300CE36C6 /* ModelsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5FC806C2805DCF10091FFF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -555,6 +777,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A52300FC2811A50200CE36C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5FC806F2805DCF10091FFF0 /* ModularSlothCreator */;
+			targetProxy = A52300FB2811A50200CE36C6 /* PBXContainerItemProxy */;
+		};
+		A523010A2811A68100CE36C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5FC809C2805DF540091FFF0 /* Care */;
+			targetProxy = A52301092811A68100CE36C6 /* PBXContainerItemProxy */;
+		};
+		A523011A2811B12300CE36C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5FC80B42805DFA90091FFF0 /* Models */;
+			targetProxy = A52301192811B12300CE36C6 /* PBXContainerItemProxy */;
+		};
 		A5FC808D2805DD720091FFF0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A5FC80852805DD720091FFF0 /* Creation */;
@@ -578,6 +815,116 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		A52300FE2811A50200CE36C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C3BX32XR8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.ModularSlothCreatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ModularSlothCreator;
+			};
+			name = Debug;
+		};
+		A52300FF2811A50200CE36C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C3BX32XR8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.ModularSlothCreatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ModularSlothCreator;
+			};
+			name = Release;
+		};
+		A523010C2811A68100CE36C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C3BX32XR8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.CareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A523010D2811A68100CE36C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C3BX32XR8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.CareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A523011C2811B12300CE36C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C3BX32XR8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.ModelsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A523011D2811B12300CE36C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C3BX32XR8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.ModelsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		A5FC807C2805DCF20091FFF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -628,7 +975,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -682,7 +1029,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1005,6 +1352,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A52300FD2811A50200CE36C6 /* Build configuration list for PBXNativeTarget "ModularSlothCreatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52300FE2811A50200CE36C6 /* Debug */,
+				A52300FF2811A50200CE36C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A523010B2811A68100CE36C6 /* Build configuration list for PBXNativeTarget "CareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A523010C2811A68100CE36C6 /* Debug */,
+				A523010D2811A68100CE36C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A523011B2811B12300CE36C6 /* Build configuration list for PBXNativeTarget "ModelsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A523011C2811B12300CE36C6 /* Debug */,
+				A523011D2811B12300CE36C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A5FC806B2805DCF10091FFF0 /* Build configuration list for PBXProject "ModularSlothCreator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
