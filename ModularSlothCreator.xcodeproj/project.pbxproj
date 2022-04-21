@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A52300F82811A50200CE36C6 /* ModularSlothCreatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52300F72811A50200CE36C6 /* ModularSlothCreatorUITests.swift */; };
 		A52300FA2811A50200CE36C6 /* ModularSlothCreatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52300F92811A50200CE36C6 /* ModularSlothCreatorUITestsLaunchTests.swift */; };
+		A52301072811A68100CE36C6 /* CareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52301062811A68100CE36C6 /* CareTests.swift */; };
+		A52301082811A68100CE36C6 /* Care.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FC809D2805DF540091FFF0 /* Care.framework */; };
 		A5FC80742805DCF10091FFF0 /* ModularSlothCreatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC80732805DCF10091FFF0 /* ModularSlothCreatorApp.swift */; };
 		A5FC80762805DCF10091FFF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC80752805DCF10091FFF0 /* ContentView.swift */; };
 		A5FC80782805DCF20091FFF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FC80772805DCF20091FFF0 /* Assets.xcassets */; };
@@ -56,6 +58,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = A5FC806F2805DCF10091FFF0;
 			remoteInfo = ModularSlothCreator;
+		};
+		A52301092811A68100CE36C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5FC80682805DCF10091FFF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5FC809C2805DF540091FFF0;
+			remoteInfo = Care;
 		};
 		A5FC808C2805DD720091FFF0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -108,6 +117,8 @@
 		A52300F52811A50200CE36C6 /* ModularSlothCreatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModularSlothCreatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52300F72811A50200CE36C6 /* ModularSlothCreatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularSlothCreatorUITests.swift; sourceTree = "<group>"; };
 		A52300F92811A50200CE36C6 /* ModularSlothCreatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularSlothCreatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A52301042811A68100CE36C6 /* CareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52301062811A68100CE36C6 /* CareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTests.swift; sourceTree = "<group>"; };
 		A5FC80702805DCF10091FFF0 /* ModularSlothCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModularSlothCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5FC80732805DCF10091FFF0 /* ModularSlothCreatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularSlothCreatorApp.swift; sourceTree = "<group>"; };
 		A5FC80752805DCF10091FFF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -145,6 +156,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52301012811A68100CE36C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52301082811A68100CE36C6 /* Care.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,11 +221,20 @@
 			path = ModularSlothCreatorUITests;
 			sourceTree = "<group>";
 		};
+		A52301052811A68100CE36C6 /* CareTests */ = {
+			isa = PBXGroup;
+			children = (
+				A52301062811A68100CE36C6 /* CareTests.swift */,
+			);
+			path = CareTests;
+			sourceTree = "<group>";
+		};
 		A5FC80672805DCF10091FFF0 = {
 			isa = PBXGroup;
 			children = (
 				A5FC80722805DCF10091FFF0 /* ModularSlothCreator */,
 				A52300F62811A50200CE36C6 /* ModularSlothCreatorUITests */,
+				A52301052811A68100CE36C6 /* CareTests */,
 				A5FC80712805DCF10091FFF0 /* Products */,
 				A5FC80E62805E2460091FFF0 /* Frameworks */,
 			);
@@ -221,6 +249,7 @@
 				A5FC80B52805DFA90091FFF0 /* Models.framework */,
 				A5FC80D12805E01D0091FFF0 /* Viewing.framework */,
 				A52300F52811A50200CE36C6 /* ModularSlothCreatorUITests.xctest */,
+				A52301042811A68100CE36C6 /* CareTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -360,6 +389,24 @@
 			productReference = A52300F52811A50200CE36C6 /* ModularSlothCreatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		A52301032811A68100CE36C6 /* CareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A523010B2811A68100CE36C6 /* Build configuration list for PBXNativeTarget "CareTests" */;
+			buildPhases = (
+				A52301002811A68100CE36C6 /* Sources */,
+				A52301012811A68100CE36C6 /* Frameworks */,
+				A52301022811A68100CE36C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A523010A2811A68100CE36C6 /* PBXTargetDependency */,
+			);
+			name = CareTests;
+			productName = CareTests;
+			productReference = A52301042811A68100CE36C6 /* CareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A5FC806F2805DCF10091FFF0 /* ModularSlothCreator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5FC807E2805DCF20091FFF0 /* Build configuration list for PBXNativeTarget "ModularSlothCreator" */;
@@ -468,6 +515,9 @@
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = A5FC806F2805DCF10091FFF0;
 					};
+					A52301032811A68100CE36C6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					A5FC806F2805DCF10091FFF0 = {
 						CreatedOnToolsVersion = 13.3;
 					};
@@ -504,12 +554,20 @@
 				A5FC80B42805DFA90091FFF0 /* Models */,
 				A5FC80D02805E01D0091FFF0 /* Viewing */,
 				A52300F42811A50200CE36C6 /* ModularSlothCreatorUITests */,
+				A52301032811A68100CE36C6 /* CareTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A52300F32811A50200CE36C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52301022811A68100CE36C6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -562,6 +620,14 @@
 			files = (
 				A52300F82811A50200CE36C6 /* ModularSlothCreatorUITests.swift in Sources */,
 				A52300FA2811A50200CE36C6 /* ModularSlothCreatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A52301002811A68100CE36C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52301072811A68100CE36C6 /* CareTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,6 +695,11 @@
 			target = A5FC806F2805DCF10091FFF0 /* ModularSlothCreator */;
 			targetProxy = A52300FB2811A50200CE36C6 /* PBXContainerItemProxy */;
 		};
+		A523010A2811A68100CE36C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5FC809C2805DF540091FFF0 /* Care */;
+			targetProxy = A52301092811A68100CE36C6 /* PBXContainerItemProxy */;
+		};
 		A5FC808D2805DD720091FFF0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A5FC80852805DD720091FFF0 /* Creation */;
@@ -660,7 +731,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3BX32XR8J;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.ModularSlothCreatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -679,7 +750,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C3BX32XR8J;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.ModularSlothCreatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -687,6 +758,42 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = ModularSlothCreator;
+			};
+			name = Release;
+		};
+		A523010C2811A68100CE36C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C3BX32XR8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.CareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A523010D2811A68100CE36C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C3BX32XR8J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.CareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1122,6 +1229,15 @@
 			buildConfigurations = (
 				A52300FE2811A50200CE36C6 /* Debug */,
 				A52300FF2811A50200CE36C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A523010B2811A68100CE36C6 /* Build configuration list for PBXNativeTarget "CareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A523010C2811A68100CE36C6 /* Debug */,
+				A523010D2811A68100CE36C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
